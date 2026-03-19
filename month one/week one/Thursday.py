@@ -54,59 +54,26 @@ Includes:
 ### 🔹 `/dev` (Devices)
 - Contains device files.
 Examples:
-
 - `/dev/sda` → hard disk
-    
 - `/dev/usb` → USB devices
-    
-
 👉 In Linux, **hardware is treated like files**.
-
----
-
 ### 🔹 `/etc` (Configuration Files)
-
 - Contains system-wide configuration files.
-    
-
 Examples:
-
 - Network settings
-    
 - User account settings
-    
 - Service configurations
-    
-
 👉 Important files:
-
 - `/etc/passwd` → user accounts
-    
 - `/etc/hosts` → hostname mapping
-    
-
----
-
 ### 🔹 `/home`
-
 - Personal directories for users.
-    
-
 Example:
-
 /home/username
-
 👉 This is where:
-
 - Documents
-    
 - Downloads
-    
 - Personal files are stored
-    
-
----
-
 ### 🔹 `/root`
 - Home directory for the **root (admin) user**.
 ⚠️ Not the same as `/`
