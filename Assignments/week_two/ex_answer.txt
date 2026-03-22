@@ -1,0 +1,10 @@
+1. 640
+2. 755
+3. 110 110 100 (664)
+4. 640
+5. no because its permission is taken away
+6. touch Audit.txt
+chmod 750 Audit.txt
+7. rwxr----x
+8. r-x------
+9. 564
