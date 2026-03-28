@@ -1,0 +1,35 @@
+1. FLAG{http_easy_capture}
+- The flag for challenge 1
+- Filter using http
+- Follow one of xml/text files
+- open it using http/ tcp stream
+
+2. FLAG{dns_exfiltration}
+Opened the provided capture file in Wireshark
+Focused on network traffic based on the hint about “small questions” → identified DNS traffic as relevant
+Applied a DNS filter to isolate queries and responses
+
+Inspected DNS packets and found a suspicious query:
+
+FLAG_dns_exfiltration_.example.com
+Recognized that the domain name contained readable text rather than encoded data
+Confirmed the same pattern in another DNS packet, reinforcing that it was intentional
+Interpreted the string as a flag hidden via DNS exfiltration technique
+Converted the format from DNS-safe text to the required CTF format
+
+3. FLAG{tcp_stream_reassembly}
+filter tcp
+looked for packets using tcp protocol and doesn't use port 443 (because it will be encrypted if it has used that)
+when I found one I right clicked on it and followed its tcp stream
+
+4. FLAG{smtp_base64}
+filtered it using smtp
+inspect suspecious packets
+eamined payload of each packet and disovered that one of them contained a suspicous string RkxBR3tzbXRwX2Jhc2U2NH0=
+decooded the string using base 64 since the hint says to look for encoded payload
+
+5. FLAG{ic_icmp}
+Filter icmp
+Click a suspicious ICMP packet
+Go to the Packet Bytes pane
+Switch to ASCII view (bottom left)
