@@ -1,27 +1,29 @@
 # 4-Month Cybersecurity Weekend Camp Checklist
+
+
 ## Month 1: Foundations
 
-Week 1 – Linux Basics
-	&#x2705 Can navigate Linux file structure (cd, ls, pwd, etc.)
-	&#x2705 Comfortable with common Linux commands (cp, mv, rm, chmod, chown, mkdir, etc.)
-	&#x2705 Can edit files using command-line editors (nano, vim, etc.)
+### Week 1 – Linux Basics
+- ✅ Can navigate Linux file structure (cd, ls, pwd, etc.)
+- ✅ Comfortable with common Linux commands (cp, mv, rm, chmod, chown, mkdir, etc.)
+- ✅ Can edit files using command-line editors (nano, vim, etc.)
 
-Week 2 – Networking Basics
+### Week 2 – Networking Basics
+- ✅ Understand OSI and TCP/IP models
+- ✅ Know basic network devices and their roles (switch, router, firewall)
+- ✅ Can use commands like ping, traceroute, netstat
 
-	&#x2705 Understand OSI and TCP/IP models
-	&#x2705 Know basic network devices and their roles (switch, router, firewall)
- 	&#x2705 Can use commands like ping, traceroute, netstat
+### Week 3 – Traffic Analysis & SOC Operations
+- ✅ Can capture and analyze traffic with Wireshark
+- ✅ Understand common network protocols (HTTP, DNS, TCP, UDP)
+- [ ] Know SOC roles and monitoring basics
 
-Week 3 – Traffic Analysis & SOC Operations
- 	&#x2705 Can capture and analyze traffic with Wireshark
- 	&#x2705 Understand common network protocols (HTTP, DNS, TCP, UDP)
- []Know SOC roles and monitoring basics
+### Week 4 – Security & Nmap
+- ✅ Understand CIA triad (Confidentiality, Integrity, Availability)
+- ✅ Identify an attack surface of a system
+- ✅ Use Nmap for basic scanning and service enumeration
+- ✅ Completed weekly challenge
 
-Week 4 – Security & Nmap
- 	&#x2705 Understand CIA triad (Confidentiality, Integrity, Availability)
- 	&#x2705 Identify an attack surface of a system
- 	&#x2705 Use Nmap for basic scanning and service enumeration
- 	&#x2705 Completed weekly challenge
 
 ## Month 2: Web & Cryptography
 
@@ -41,6 +43,7 @@ Week 3 – Recon & Enumeration
  [] Enumerate network services
  [] Identify common web vulnerabilities and injection points
  [] Participate in CTF challenges
+ 
 
 ## Month 3: Intermediate – Advanced
 
