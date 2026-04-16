@@ -2,26 +2,26 @@
 ## Month 1: Foundations
 
 Week 1 – Linux Basics
-[==done==] Can navigate Linux file structure (cd, ls, pwd, etc.)
-[==done==] Comfortable with common Linux commands (cp, mv, rm, chmod, chown, mkdir, etc.)
-[==done==] Can edit files using command-line editors (nano, vim, etc.)
+[ ==done== ] Can navigate Linux file structure (cd, ls, pwd, etc.)
+[ ==done== ] Comfortable with common Linux commands (cp, mv, rm, chmod, chown, mkdir, etc.)
+[ ==done== ] Can edit files using command-line editors (nano, vim, etc.)
 
 Week 2 – Networking Basics
 
- [==done==] Understand OSI and TCP/IP models
- [==done==] Know basic network devices and their roles (switch, router, firewall)
- [==done==] Can use commands like ping, traceroute, netstat
+ [ ==done== ] Understand OSI and TCP/IP models
+ [ ==done== ] Know basic network devices and their roles (switch, router, firewall)
+ [ ==done== ] Can use commands like ping, traceroute, netstat
 
 Week 3 – Traffic Analysis & SOC Operations
- [==done==] Can capture and analyze traffic with Wireshark
- [==done==]Understand common network protocols (HTTP, DNS, TCP, UDP)
+ [ ==done== ] Can capture and analyze traffic with Wireshark
+ [ ==done== ]Understand common network protocols (HTTP, DNS, TCP, UDP)
  []Know SOC roles and monitoring basics
 
 Week 4 – Security & Nmap
- [==done==] Understand CIA triad (Confidentiality, Integrity, Availability)
- [==done==] Identify an attack surface of a system
- [==done==] Use Nmap for basic scanning and service enumeration
- [==done==] Completed weekly challenge
+ [ ==done== ] Understand CIA triad (Confidentiality, Integrity, Availability)
+ [ ==done== ] Identify an attack surface of a system
+ [ ==done== ] Use Nmap for basic scanning and service enumeration
+ [ ==done== ] Completed weekly challenge
 
 ## Month 2: Web & Cryptography
 
