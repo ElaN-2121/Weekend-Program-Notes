@@ -1,0 +1,21 @@
+# Web Attack Surface Basics
+- Domains & Subdomains: Primary entry points and test environments
+- Admin Panels: Management interfaces and dashboards
+- robots.txt: Crawl directives and hidden paths
+- Directories & Files: Hidden paths and backup locations
+- APIs: Endpoints for data exchange
+- Backup Paths: Staging and development environments
+- robots.txt: Tells search engines what not to index
+
+# Test Environments
+- dev 4 Development servers
+- api 4 Application interfaces
+- admin 4 Management panels
+- staging 4 Pre-production systems
+
+## Reconaissance Tool
+
+## Passive Recon
+
+## Active Recon
+
