@@ -2,22 +2,21 @@
 
 ## Passive Recon
 
-Passive reconnaissance is collecting information about a target without directly interacting with them.
-
-Instead of attacking the target, hackers use:
-- Google
-- Social media
-- Public websites
-- Search engines
-- Archived websites
-💡 Key idea: Passive recon = silent information gathering
-✅ Advantages of Passive Recon
+- Passive reconnaissance is collecting information about a target without directly interacting with them.
+- Instead of attacking the target, hackers use:
+    - Google
+    - Social media
+    - Public websites
+    - Search engines
+    - Archived websites
+- 💡 Key idea: Passive recon = silent information gathering
+- ✅ Advantages of Passive Recon
     - Stealthy
     - Low cost
     - Safer
     - Mostly legal
     - Many information sources
-❌ Disadvantages of Passive Recon
+- ❌ Disadvantages of Passive Recon
     - Information may be outdated
     - Data may be inaccurate
     - Time-consuming
@@ -25,49 +24,47 @@ Instead of attacking the target, hackers use:
 ## Internet Archive / Wayback Machine
 
 - Stores historical versions of websites.
-Importance: Deleted content may still be accessible.
-Used for:
+- Importance: Deleted content may still be accessible.
+- Used for:
     - Finding old company data
     - Discovering exposed information
     - Viewing outdated pages 
 
 ## Cookies & Privacy Risks
 
-Cookies: Small files stored in browsers.
-Used for:
+- Cookies: Small files stored in browsers.
+- Used for:
     - Tracking users
     - Saving sessions
     - Improving user experience
-Risk: Attackers can steal:
+- Risk: Attackers can steal:
     - Session IDs
     - User activity data
-Result: 
-
+- Result: 
     - Session hijacking / unauthorized access.
 
 ## Reverse Image Search
 
-Tools like Google Images/Google Lens can:
+- Tools like Google Images/Google Lens can:
     - Identify people
     - Find locations
     - Match images online
-Social media creates a digital footprint.
+- Social media creates a digital footprint.
 
 ## 🏢 Data Brokers
 
-Companies that collect and sell user data.
-Sources:
+- Companies that collect and sell user data.
+- Sources:
     - Cookies
     - Mobile apps
     - Public records
     - Browsing history
-Risk:
-Attackers can use this data for profiling targets.
+-Risk: Attackers can use this data for profiling targets.
 
 ## 👣 Footprinting
 
-Collecting detailed information about a target.
-Used to understand:
+-Collecting detailed information about a target.
+- Used to understand:
     - Systems
     - Networks
     - Employees
@@ -86,36 +83,36 @@ Used to understand:
 ## 📂 Types of Information Collected
 
 ### 1. System Information
-Includes:
+- Includes:
     - Operating system
     - Applications
     - Services
     - Usernames/passwords
-Purpose:
+- Purpose:
     - Find vulnerabilities
 ### 2. Network Information
-Includes:
+- Includes:
     - DNS
     - ARP
     - LLMNR
     - Domain names
     - Firewall info
-Purpose:
+P- urpose:
     - Understand network structure
     - Identify weak protocols
 ### 3. Organizational Information
-Includes:
+- Includes:
     - Employee names
     - Emails
     - Phone numbers
     - Company structure
-Purpose:
+- Purpose:
     - Social engineering attacks
 
 ## OSINT
 
 ### Definition
-Collecting and analyzing publicly available information from the internet.
+- Collecting and analyzing publicly available information from the internet.
 
 ### Common Data Sources
     - Media (photos/videos/audio)
@@ -127,29 +124,29 @@ Collecting and analyzing publicly available information from the internet.
 
 ### 🔄 OSINT Life Cycle
 1. Requirements Gathering
-Understand: Client goals, Risks, Deliverables
+- Understand: Client goals, Risks, Deliverables
 2. Data Collection
-Gather: Documents, Photos, Videos, Technical details
+- Gather: Documents, Photos, Videos, Technical details
 3. Data Analysis
-Check: Accuracy, Credibility, Relevance
-Convert data into meaningful intelligence.
+- Check: Accuracy, Credibility, Relevance
+- Convert data into meaningful intelligence.
 4. Pivoting & Reporting
-Explore new related data points, Report findings and risks
+- Explore new related data points, Report findings and risks
 
-###🧩 YOGA
-Purpose
-OSINT visualization tool.
-Helps:
+### 🧩 YOGA
+- Purpose
+- OSINT visualization tool.
+- Helps:
     - Connect data points
     - Discover relationships
     - Pivot investigations
 
-###✅ Benefits of OSINT
-Used by:
+### ✅ Benefits of OSINT
+- Used by:
     - Ethical hackers
     - Law enforcement
     - Investigators
-Helps:
+- Helps:
     - Find criminals
     - Track missing persons
     - Discover data leaks
@@ -158,8 +155,8 @@ Helps:
 ### 🎭 Sock Puppets
 
 #### Definition
-Fake social media accounts used for OSINT investigations.
-Purpose:
+- Fake social media accounts used for OSINT investigations.
+- Purpose:
     - Hide real identity
     - Gather intelligence anonymously
 
@@ -179,48 +176,48 @@ Purpose:
 
 ## 🌐 Anonymizing Network Traffic
 
-Purpose:
+- Purpose:
     - Hide IP address
     - Hide geolocation
     - Prevent tracing
-Methods:
+- Methods:
     - VPN
     - Proxychains
     - TOR
 
 ### 🔒 VPN
-Purpose: Creates encrypted tunnel over the internet.
-Benefits:
+- Purpose: Creates encrypted tunnel over the internet.
+- Benefits:
     - Hides IP address
     - Changes geolocation
     - Protects traffic
-Important
+- Important
     - Avoid DNS leaks
     - Disable IPv6 if unsupported
     - Choose no-log VPNs
 
 ### 🔗 Proxychains
-Purpose: Routes traffic through multiple proxy servers.
-Benefits:
+- Purpose: Routes traffic through multiple proxy servers.
+- Benefits:
     - Better anonymity
     - Hides source IP
     - Bypasses restrictions
-Supports:
+- Supports:
     - HTTP
     - HTTPS
     - SOCKS4
     - SOCKS5
-Key Idea: Traffic passes through several proxies before reaching target.
+- Key Idea: Traffic passes through several proxies before reaching target.
 
 ### 🧅 TOR (The Onion Router)
-Purpose: Anonymous internet browsing.
+- Purpose: Anonymous internet browsing.
 
 #### How It Works
 **Traffic:**
-Encrypted multiple times
-Routed through multiple TOR nodes
+- Encrypted multiple times
+- Routed through multiple TOR nodes
 **Each node:**
-Knows only previous & next node
+- Knows only previous & next node
 
 **Benefits:**
     - Hides identity
@@ -229,9 +226,9 @@ Knows only previous & next node
 **Key Idea**
 *TOR = layered encryption + anonymous routing.*
 #### ⚠️ TOR Safety
-    Use only TOR browser for .onion sites
-    Don’t trust downloads
-    Be cautious on dark web
+    - Use only TOR browser for .onion sites
+    - Don’t trust downloads
+    - Be cautious on dark web
 
 ## ⚡ Ultra Quick Revision
     Passive recon = no interaction
